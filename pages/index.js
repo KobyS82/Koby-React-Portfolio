@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
@@ -46,7 +47,9 @@ export default function Home() {
           </nav>
           {/* Info */}
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">Koby Sillito</h2>
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+              Koby Sillito
+            </h2>
             <h3 className="text-2xl py-2">Full Stack Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
               Hi, I'm Koby, a full stack developer from the US. I'm currently
@@ -60,9 +63,7 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-          <div>
-
-          </div>
+          <div></div>
         </section>
       </main>
     </div>
