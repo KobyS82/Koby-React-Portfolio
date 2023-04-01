@@ -38,14 +38,9 @@ export default function Home() {
       </Head>
 
       <main className={`bg-white px-10 text-black md:px-20 lg:px-40 ${darkStyles}`}>
-        <section className="min-h-screen bg-gray-500">
+        <section className="min-h-screen">
           {/* Navbar */}
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1
-              className={`text-xl font-burtons ${grayGradient} ${paddingAndRadius} `}
-            >
-              KobyS
-            </h1>
+          <nav className="py-10 mb-12 flex justify-end">
             <ul className="flex items-center">
               <li className="px-4">Home</li>
               <li className="px-4">Projects</li>
