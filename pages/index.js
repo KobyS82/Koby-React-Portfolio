@@ -4,7 +4,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillGithub,
   AiFillLinkedin,
-  AiFillContacts,
   AiFillFileText
 } from "react-icons/ai";
 
@@ -36,14 +35,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={`bg-white px-10 text-black md:px-20 lg:px-40 ${darkStyles}`}>
-        <section className="min-h-screen">
+      {/*  Start of Page */}
+      <main className={`bg-purple-200 px-10 text-black md:px-20 lg:px-40 ${darkStyles}`}>
+        <section id="home" className="min-h-screen">
           {/* Navbar */}
-          <nav className="py-10 mb-12 flex justify-end">
-            <ul className="flex items-center">
-              <li className="px-4">Home</li>
-              <li className="px-4">Projects</li>
+          <nav className="py-10 mb-12 flex justify-center">
+              <ul className="flex items-center">
+              <li className="px-4"><a
+                  href="#home"
+                >Home</a></li>
+              <li className="px-4"><a
+                  href="#background"
+                >Background</a></li>
+              <li className="px-4"><a
+                  href="#portfolio"
+                >Portfolio</a></li>
               <li className="px-4">
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
               </li>
@@ -60,7 +66,7 @@ export default function Home() {
           </nav>
           {/* Info */}
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl ">
+            <h2 className="text-5xl py-2 text-purple-500 font-medium md:text-6xl ">
               Koby Sillito
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Full Stack Developer</h3>
@@ -73,18 +79,18 @@ export default function Home() {
           {/* Socials */}
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <a href='https://github.com/KobyS82' TARGET="_blank"><AiFillGithub /></a>
-            <a href='#' TARGET="_blank"><AiFillLinkedin /></a>
-            <a href='#' TARGET="_blank"><AiFillFileText /></a>
+            <a href='#https://www.linkedin.com/in/koby-sillito/' TARGET="_blank"><AiFillLinkedin /></a>
+            <a href='#https://docs.google.com/document/d/17N3A6zOqL7IJ6HCXbcePu9OvhL8HGvxpBMXVfIZhKWc/edit?usp=sharing' TARGET="_blank"><AiFillFileText /></a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 to-white rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-pink-300 to-indigo-200 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} alt="dev ed" layout="fill" objectFit="cover" />
           </div>
         </section>
 
-        {/* Cards */}
-        <section>
-          <div>
-            <h3 className="text-3xl py-1">Services I offer</h3>
+        {/* Background */}
+        <section id="background">
+          <div className="bg-">
+            <h3 className="text-3xl py-1">Background</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
               <span className="text-teal-500"> voluptate</span> quod quia quas a
@@ -96,7 +102,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 ">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200 dark:bg-white">
               <div className="flex justify-center">
                 <Image
                   src={design}
@@ -118,7 +124,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200 dark:bg-white">
               <div className="flex justify-center">
                 <Image
                   src={code}
@@ -140,7 +146,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200 dark:bg-white">
               <div className="flex justify-center">
                 <Image
                   src={consulting}
@@ -165,7 +171,7 @@ export default function Home() {
         </section>
 
         {/* Portfolio */}
-        <section>
+        <section id="portfolio">
           <div>
             <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
