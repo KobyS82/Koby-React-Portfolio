@@ -13,9 +13,9 @@ import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
+import wanderLust2 from "../public/wanderlust2.0.png";
+import wanderLust from "../public/wanderlust.png";
+import wonderLust from "../public/wonderLust.jpg";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
@@ -179,10 +179,28 @@ export default function Home() {
               I offer a wide range of services, from web development to
             </p>
           </div>
+          {/* Cards */}
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
+              <div className="bg-indigo-200 shadow-lg rounded-t-lg flex flex-col flex-wrap text-center">
+                  <h4 className="font-bold">Wanderlust</h4>
+                  <p>Wanderlust is a travel blog where users can post daily uploads about their trip.</p>
+                  <p>For this project, I worked mostly on the controllers, handlebars, and troubleshooting errors.</p>
+                </div>
+                <a href="https://google.com" target="_blank">
+                  <Image
+                    src={wanderLust2}
+                    alt="Nike"
+                    className="rounded-b-lg object-cover"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                  />
+                </a>
+              </div>
+            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
               <Image
-                src={web1}
+                src={wanderLust}
                 alt="Nike"
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -190,9 +208,9 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
               <Image
-                src={web2}
+                src={wonderLust}
                 alt="Nike"
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -200,17 +218,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web3}
-                alt="Nike"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
               <Image
                 src={web4}
                 alt="Nike"
@@ -220,7 +228,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
               <Image
                 src={web5}
                 alt="Nike"
@@ -230,7 +238,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
               <Image
                 src={web6}
                 alt="Nike"
