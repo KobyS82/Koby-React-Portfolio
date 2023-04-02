@@ -41,16 +41,16 @@ export default function Home() {
         <section>
           <nav className="mb-12 p-6 pt-10 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg">
             <ul className="flex items-center">
-              <li className="px-4 hover:text-violet-600">
+              <li className="px-4 hover:text-pink-400 hover:border-spacing-2">
                 <a href="#home">Home</a>
               </li>
-              <li className="px-4 ">
+              <li className="px-4 hover:text-pink-400">
                 <a href="#background">Background</a>
               </li>
-              <li className="px-4">
+              <li className="px-4 hover:text-pink-400">
                 <a href="#portfolio">Portfolio</a>
               </li>
-              <li className="px-4">
+              <li className="px-4 hover:text-pink-400">
                 < BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
                   className="cursor-pointer text-2xl"
@@ -78,23 +78,23 @@ export default function Home() {
           {/* Socials */}
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <a href="https://github.com/KobyS82" target="_blank">
-              <AiFillGithub />
+              <AiFillGithub className="hover:text-pink-400"/>
             </a>
             <a
               href="https://www.linkedin.com/in/koby-sillito/"
               target="_blank"
             >
-              <AiFillLinkedin />
+              <AiFillLinkedin className="hover:text-pink-400"/>
             </a>
             <a
               href="https://docs.google.com/document/d/17N3A6zOqL7IJ6HCXbcePu9OvhL8HGvxpBMXVfIZhKWc/edit?usp=sharing"
               target="_blank"
             >
-              <AiFillFileText />
+              <AiFillFileText className="hover:text-pink-400"/>
             </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-pink-300 to-indigo-200 rounded-full w-80 h-80 m-20 overflow-hidden hover:from-transparent md:h-96 md:w-96">
-            <Image src={deved} alt="dev ed" layout="fill" objectFit="cover" />
+          <div className="relative mx-auto bg-gradient-to-b from-pink-300 to-indigo-200 rounded-full w-80 h-80 m-20 overflow-hidden md:h-96 md:w-96">
+            <Image src={deved} alt="dev ed" layout="fill" objectFit="cover" className="hover:animate-spin"/>
           </div>
         </section>
 
