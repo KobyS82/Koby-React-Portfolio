@@ -15,8 +15,8 @@ import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import wanderLust from "../public/wanderlust2.0.png";
 import workDay from "../public/workday-scheduler.png";
-import jate from "../public/jate-2.jpg";
-import passGen from "../public/passwordGenerator.jpg";
+import jate from "../public/jate5.png";
+import passGen from "../public/passwordGenerator2.png";
 import { useState } from "react";
 
 const grayGradient = "bg-gradient-to-b from-gray-200 to-gray-600";
