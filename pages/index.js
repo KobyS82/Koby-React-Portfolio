@@ -40,8 +40,8 @@ export default function Home() {
         {/* Navbar */}
         <section>
           <nav className="mb-12 p-6 pt-10 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg">
-            <ul className="flex items-center">
-              <li className="px-4 hover:text-pink-400 hover:border-spacing-2">
+            <ul className="flex items-center text-lg">
+              <li className="px-4 hover:text-pink-400 hover:">
                 <a href="#home">Home</a>
               </li>
               <li className="px-4 hover:text-pink-400">
@@ -94,7 +94,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-pink-300 to-indigo-200 rounded-full w-80 h-80 m-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} alt="dev ed" layout="fill" objectFit="cover" className="hover:animate-spin"/>
+            <Image src={deved} alt="dev ed" layout="fill" objectFit="cover" className="hover:animate-spin-slow"/>
           </div>
         </section>
 
