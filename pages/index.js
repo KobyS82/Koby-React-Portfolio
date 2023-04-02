@@ -16,7 +16,7 @@ import consulting from "../public/consulting.png";
 import wanderLust from "../public/wanderlust2.0.png";
 import workDay from "../public/workday-scheduler.png";
 // import jate from "../public/jate7.JPG";
-import passGen from "../public/passwordGenerator2.png";
+// import passGen from "../public/passwordGenerator2.png";
 import { useState } from "react";
 
 const grayGradient = "bg-gradient-to-b from-gray-200 to-gray-600";
@@ -238,14 +238,14 @@ export default function Home() {
                 <a className="font-semibold hover:text-pink-400 hover:font-bold" href="https://github.com/KobyS82/Password-Generator" target={"_blank"}>Link to Repo</a>
               </div>
               <a href="https://kobys82.github.io/Password-Generator/" target="_blank">
-                <Image
+                {/* <Image
                   src={passGen}
                   alt="Nike"
                   className="rounded-b-lg object-cover"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                />
+                /> */}
               </a>
             </div>
           </div>
