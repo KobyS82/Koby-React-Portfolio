@@ -13,12 +13,10 @@ import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import wanderLust2 from "../public/wanderlust2.0.png";
-import wanderLust from "../public/wanderlust.png";
-import wonderLust from "../public/wonderLust.jpg";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import wanderLust from "../public/wanderlust2.0.png";
+import workDay from "../public/workday-scheduler.png";
+import jate from "../public/jate-2.jpg";
+import passGen from "../public/password-generator-img.JPG";
 import { useState } from "react";
 
 const grayGradient = "bg-gradient-to-b from-gray-200 to-gray-600";
@@ -27,7 +25,7 @@ const darkStyles = "dark:bg-gray-800";
 // const darkStyles = "dark:bg-gray-800 dark:text-white";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -180,70 +178,71 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
               <div className="bg-indigo-200 shadow-lg rounded-t-lg flex flex-col flex-wrap text-center">
-                  <h4 className="font-bold">Wanderlust</h4>
-                  <p>Wanderlust is a travel blog where users can post daily uploads about their trip.</p>
-                  <p>For this project, I worked mostly on the controllers, handlebars, and troubleshooting errors.</p>
-                </div>
-                <a href="https://google.com" target="_blank">
-                  <Image
-                    src={wanderLust2}
-                    alt="Nike"
-                    className="rounded-b-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
-                    layout="responsive"
-                  />
-                </a>
+                <h4 className="font-bold">Wanderlust</h4>
+                <p>Wanderlust is a travel blog where users can post daily uploads about their trip.</p>
+                <p>For this project, I worked mostly on the controllers, handlebars, and troubleshooting errors.</p>
               </div>
-            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
-              <Image
-                src={wanderLust}
-                alt="Nike"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <a href="https://quiet-everglades-33653.herokuapp.com/" target="_blank">
+                <Image
+                  src={wanderLust}
+                  alt="wanderlust"
+                  className="rounded-b-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
-              <Image
-                src={wonderLust}
-                alt="Nike"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <div className="bg-indigo-200 shadow-lg rounded-t-lg flex flex-col flex-wrap text-center">
+                <h4 className="font-bold">Workday Scheduler</h4>
+                <p>This scheduler can be used to track the time and save todos in a browser</p>
+                <p>For this project, I implimented DayJS and worked on local storage.</p>
+              </div>
+              <a href="https://kobys82.github.io/Work-Day-Scheduler/" target="_blank">
+                <Image
+                  src={workDay}
+                  alt="Nike"
+                  className="rounded-b-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
-              <Image
-                src={web4}
-                alt="Nike"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <div className="bg-indigo-200 shadow-lg rounded-t-lg flex flex-col flex-wrap text-center">
+                <h4 className="font-bold">JATE</h4>
+                <p>This page will serve as a text editor that can be downloaded and used offline</p>
+                <p>For this project, I implimented IndexedDB to create a progressive web application (PWA).</p>
+              </div>
+              <a href="https://text-editor-kobys.herokuapp.com/" target="_blank">
+                <Image
+                  src={jate}
+                  alt="Nike"
+                  className="rounded-b-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
-              <Image
-                src={web5}
-                alt="Nike"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
-              <Image
-                src={web6}
-                alt="Nike"
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <div className="bg-indigo-200 shadow-lg rounded-t-lg flex flex-col flex-wrap text-center">
+                <h4 className="font-bold">Password Generator</h4>
+                <p>This page will serve as a tool to help create a password for a user that can have many variations.</p>
+                <p>For this project, I implimented event listeners and algorithyms to create a random passwords.</p>
+              </div>
+              <a href="https://kobys82.github.io/Password-Generator/" target="_blank">
+                <Image
+                  src={passGen}
+                  alt="Nike"
+                  className="rounded-b-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
           </div>
         </section>
