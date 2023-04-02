@@ -104,13 +104,8 @@ export default function Home() {
           <div className="">
             <h3 className="text-3xl py-1">Background</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              <span className="text-teal-500"> voluptate</span> quod quia quas a
-              at <span className="text-teal-500">voluptate</span> quod quia quas
-              a at.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              I offer a wide range of services, from web development to
+              I am currently in a
+              <span className="text-teal-500"> certificate </span> program at the <span className="text-teal-500">University Of Texas</span> for full stack development. I will be graduating May 2023 being ready to endter the job market. Here are some languages that I will be proficient in:
             </p>
           </div>
           {/* Cards */}
@@ -120,16 +115,15 @@ export default function Home() {
                 <Image src={design} alt="3d-design" width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
+                HTML & CSS
               </h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam
+                I have lots of practice with HTML and CSS, and I am very comfortable with both.
               </p>
-              <h4 className="py-4 text-teal-600">Dessign tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Frameworks I use</h4>
+              <p className="text-gray-800 py-1">Tailwind</p>
+              <p className="text-gray-800 py-1">Bootstrap</p>
+              <p className="text-gray-800 py-1">Handlebars</p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200">
@@ -137,16 +131,15 @@ export default function Home() {
                 <Image src={code} alt="3d-design" width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
+                JavaScript
               </h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam
+                JavaScript is my favorite language to work with. I have experience with both vanilla JavaScript and React.
               </p>
-              <h4 className="py-4 text-teal-600">Dessign tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Frameworks I use:</h4>
+              <p className="text-gray-800 py-1">Next.js</p>
+              <p className="text-gray-800 py-1">Express.js</p>
+              <p className="text-gray-800 py-1">jQuery.js</p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200">
@@ -159,16 +152,15 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
+                Backend
               </h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam
+                I have experience with both SQL and NoSQL databases. I am also comfortable with Node.js.
               </p>
-              <h4 className="py-4 text-teal-600">Dessign tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Frameworks I use</h4>
+              <p className="text-gray-800 py-1">MySQL</p>
+              <p className="text-gray-800 py-1">MongoDB</p>
+              <p className="text-gray-800 py-1">Sequelize</p>
             </div>
           </div>
         </section>
