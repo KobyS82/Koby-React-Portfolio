@@ -77,18 +77,18 @@ export default function Home() {
           </div>
           {/* Socials */}
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <a href="https://github.com/KobyS82" TARGET="_blank">
+            <a href="https://github.com/KobyS82" target="_blank">
               <AiFillGithub />
             </a>
             <a
-              href="#https://www.linkedin.com/in/koby-sillito/"
-              TARGET="_blank"
+              href="https://www.linkedin.com/in/koby-sillito/"
+              target="_blank"
             >
               <AiFillLinkedin />
             </a>
             <a
-              href="#https://docs.google.com/document/d/17N3A6zOqL7IJ6HCXbcePu9OvhL8HGvxpBMXVfIZhKWc/edit?usp=sharing"
-              TARGET="_blank"
+              href="https://docs.google.com/document/d/17N3A6zOqL7IJ6HCXbcePu9OvhL8HGvxpBMXVfIZhKWc/edit?usp=sharing"
+              target="_blank"
             >
               <AiFillFileText />
             </a>
