@@ -220,14 +220,14 @@ export default function Home() {
                 <a className="font-semibold hover:text-pink-400 hover:font-bold" href="https://github.com/KobyS82/Text-Editor" target={"_blank"}>Link to Repo</a>
               </div>
               <a href="https://text-editor-kobys.herokuapp.com/" target="_blank">
-                <Image
+                {/* <Image
                   src={jate}
                   alt="Nike"
                   className="rounded-b-lg object-cover"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                />
+                /> */}
               </a>
             </div>
             <div className="basis-1/3 flex-1 shadow-lg rounded-lg">
