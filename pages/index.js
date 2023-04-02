@@ -40,7 +40,7 @@ export default function Home() {
         <section>
           <nav className="mb-12 p-6 pt-6 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg  border-2 border-gray-400">
             <ul className="flex items-center text-lg">
-              <li className="px-4 hover:text-pink-400 hover:">
+              <li className="px-4 hover:text-pink-400 ">
                 <a href="#home">Home</a>
               </li>
               <li className="px-4 hover:text-pink-400">
@@ -181,6 +181,7 @@ export default function Home() {
                 <h4 className="font-bold">Wanderlust</h4>
                 <p>Wanderlust is a travel blog where users can post daily uploads about their trip.</p>
                 <p>For this project, I worked mostly on the controllers, handlebars, and troubleshooting errors.</p>
+                <a className="font-semibold hover:text-pink-400 hover:font-bold" href="https://github.com/TMortara/Travel-Blog/deployments" target={"_blank"}>Link to Repo</a>
               </div>
               <a href="https://quiet-everglades-33653.herokuapp.com/" target="_blank">
                 <Image
@@ -198,6 +199,7 @@ export default function Home() {
                 <h4 className="font-bold">Workday Scheduler</h4>
                 <p>This scheduler can be used to track the time and save todos in a browser</p>
                 <p>For this project, I implimented DayJS and worked on local storage.</p>
+                <a className="font-semibold hover:text-pink-400 hover:font-bold" href="https://github.com/KobyS82/Work-Day-Scheduler" target={"_blank"}>Link to Repo</a>
               </div>
               <a href="https://kobys82.github.io/Work-Day-Scheduler/" target="_blank">
                 <Image
@@ -215,6 +217,7 @@ export default function Home() {
                 <h4 className="font-bold">JATE</h4>
                 <p>This page will serve as a text editor that can be downloaded and used offline</p>
                 <p>For this project, I implimented IndexedDB to create a progressive web application (PWA).</p>
+                <a className="font-semibold hover:text-pink-400 hover:font-bold" href="https://github.com/KobyS82/Text-Editor" target={"_blank"}>Link to Repo</a>
               </div>
               <a href="https://text-editor-kobys.herokuapp.com/" target="_blank">
                 <Image
@@ -232,6 +235,7 @@ export default function Home() {
                 <h4 className="font-bold">Password Generator</h4>
                 <p>This page will serve as a tool to help create a password for a user that can have many variations.</p>
                 <p>For this project, I implimented event listeners and algorithyms to create a random passwords.</p>
+                <a className="font-semibold hover:text-pink-400 hover:font-bold" href="https://github.com/KobyS82/Password-Generator" target={"_blank"}>Link to Repo</a>
               </div>
               <a href="https://kobys82.github.io/Password-Generator/" target="_blank">
                 <Image
