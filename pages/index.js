@@ -23,7 +23,8 @@ import { useState } from "react";
 
 const grayGradient = "bg-gradient-to-b from-gray-200 to-gray-600";
 const paddingAndRadius = "px-4 py-2 rounded-lg";
-const darkStyles = "dark:bg-gray-800 dark:text-white";
+const darkStyles = "dark:bg-gray-800";
+// const darkStyles = "dark:bg-gray-800 dark:text-white";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -39,7 +40,7 @@ export default function Home() {
       <main className={`px-10 bg-pink-200 text-black pb-20 space-y-20 selection:bg-fuchsia-300 selection:text-fuchsia-900 md:px-20 lg:px-40 ${darkStyles}`}>
         {/* Navbar */}
         <section>
-          <nav className="mb-12 p-6 pt-10 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg">
+          <nav className="mb-12 p-6 pt-10 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg  border-2 border-gray-400">
             <ul className="flex items-center text-lg">
               <li className="px-4 hover:text-pink-400 hover:">
                 <a href="#home">Home</a>
@@ -62,7 +63,7 @@ export default function Home() {
         {/* Home */}
         <section
           id="home"
-          className="bg-purple-200 min-h-screen shadow-lg rounded-lg"
+          className="bg-purple-200 min-h-screen shadow-lg rounded-lg border-2 border-gray-400"
         >
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-pink-400 font-medium md:text-6xl ">
@@ -99,7 +100,7 @@ export default function Home() {
         </section>
 
         {/* Background */}
-        <section id="background" className="p-10 bg-purple-200 rounded-lg shadow-lg">
+        <section id="background" className="p-10 bg-purple-200 rounded-lg shadow-lg border-2 border-gray-400">
           <div className="">
             <h3 className="text-3xl py-1">Background</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
@@ -112,8 +113,9 @@ export default function Home() {
               I offer a wide range of services, from web development to
             </p>
           </div>
+          {/* Cards */}
           <div className="lg:flex gap-10 ">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200">
               <div className="flex justify-center">
                 <Image src={design} alt="3d-design" width={100} height={100} />
               </div>
@@ -130,7 +132,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200">
               <div className="flex justify-center">
                 <Image src={code} alt="3d-design" width={100} height={100} />
               </div>
@@ -147,7 +149,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-indigo-200">
               <div className="flex justify-center">
                 <Image
                   src={consulting}
@@ -172,7 +174,7 @@ export default function Home() {
         </section>
 
         {/* Portfolio */}
-        <section id="portfolio" className="p-10 bg-purple-200 rounded-lg shadow-lg">
+        <section id="portfolio" className="p-10 bg-purple-200 rounded-lg shadow-lg border-2 border-gray-400">
           <div>
             <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
