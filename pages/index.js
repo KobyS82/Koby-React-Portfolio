@@ -15,7 +15,7 @@ import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import wanderLust from "../public/wanderlust2.0.png";
 import workDay from "../public/workday-scheduler.png";
-import jate from "../public/jate7.JPG";
+// import jate from "../public/jate7.JPG";
 import passGen from "../public/passwordGenerator2.png";
 import { useState } from "react";
 
