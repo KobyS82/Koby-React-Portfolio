@@ -37,10 +37,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/*  Start of Page */}
-      <main className={`px-10 bg-pink-200 text-black pb-20 space-y-20 selection:bg-fuchsia-300 selection:text-fuchsia-900 md:px-20 lg:px-40 ${darkStyles}`}>
+      <main className={`px-10 bg-pink-200 text-black pb-20 space-y-10 selection:bg-fuchsia-300 selection:text-fuchsia-900 md:px-20 lg:px-40 ${darkStyles}`}>
         {/* Navbar */}
         <section>
-          <nav className="mb-12 p-6 pt-10 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg  border-2 border-gray-400">
+          <nav className="mb-12 p-6 pt-6 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg  border-2 border-gray-400">
             <ul className="flex items-center text-lg">
               <li className="px-4 hover:text-pink-400 hover:">
                 <a href="#home">Home</a>
@@ -105,7 +105,7 @@ export default function Home() {
             <h3 className="text-3xl py-1">Background</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               I am currently in a
-              <span className="text-teal-500"> certificate </span> program at the <span className="text-teal-500">University Of Texas</span> for full stack development. I will be graduating May 2023 being ready to endter the job market. Here are some languages that I am already proficient in:
+              <span className="text-teal-500"> certificate </span> program at the <span className="text-teal-500">University Of Texas</span> for full stack development. I will be graduating May 2023 being ready to enter the job market. I am constantly learning new languages and frameworks. Here are some languages that I am already proficient in:
             </p>
           </div>
           {/* Cards */}
@@ -170,13 +170,10 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              <span className="text-teal-500"> voluptate</span> quod quia quas a
-              at <span className="text-teal-500">voluptate</span> quod quia quas
-              a at.
+                My projects, currently, are mainly from my coding bootcamp. I am currently working on a few projects that I will be adding to my portfolio soon.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
-              I offer a wide range of services, from web development to
+              Here are some projects that I have worked on:
             </p>
           </div>
           {/* Cards */}
