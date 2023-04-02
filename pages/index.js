@@ -105,7 +105,7 @@ export default function Home() {
             <h3 className="text-3xl py-1">Background</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               I am currently in a
-              <span className="text-teal-500"> certificate </span> program at the <span className="text-teal-500">University Of Texas</span> for full stack development. I will be graduating May 2023 being ready to endter the job market. Here are some languages that I will be proficient in:
+              <span className="text-teal-500"> certificate </span> program at the <span className="text-teal-500">University Of Texas</span> for full stack development. I will be graduating May 2023 being ready to endter the job market. Here are some languages that I am already proficient in:
             </p>
           </div>
           {/* Cards */}
