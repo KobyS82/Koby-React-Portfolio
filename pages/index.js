@@ -36,15 +36,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/*  Start of Page */}
-      <main className={`px-10 bg-gray-200 text-black pb-20 md:px-20 lg:px-40 ${darkStyles}`}>
+      <main className={`px-10 bg-pink-200 text-black pb-20 space-y-20 selection:bg-fuchsia-300 selection:text-fuchsia-900 md:px-20 lg:px-40 ${darkStyles}`}>
         {/* Navbar */}
         <section>
-          <nav className="mb-12 p-6 pt-10 flex justify-center bg-white rounded-b-lg">
+          <nav className="mb-12 p-6 pt-10 flex justify-center shadow-lg bg-indigo-200 rounded-b-lg">
             <ul className="flex items-center">
-              <li className="px-4">
+              <li className="px-4 hover:text-violet-600">
                 <a href="#home">Home</a>
               </li>
-              <li className="px-4">
+              <li className="px-4 ">
                 <a href="#background">Background</a>
               </li>
               <li className="px-4">
@@ -59,13 +59,13 @@ export default function Home() {
             </ul>
           </nav>
         </section>
+        {/* Home */}
         <section
           id="home"
           className="bg-purple-200 min-h-screen shadow-lg rounded-lg"
         >
-          {/* Info */}
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-purple-500 font-medium md:text-6xl ">
+            <h2 className="text-5xl py-2 text-pink-400 font-medium md:text-6xl ">
               Koby Sillito
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Full Stack Developer</h3>
@@ -93,14 +93,14 @@ export default function Home() {
               <AiFillFileText />
             </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-pink-300 to-indigo-200 rounded-full w-80 h-80 m-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-pink-300 to-indigo-200 rounded-full w-80 h-80 m-20 overflow-hidden hover:from-transparent md:h-96 md:w-96">
             <Image src={deved} alt="dev ed" layout="fill" objectFit="cover" />
           </div>
         </section>
 
         {/* Background */}
-        <section id="background">
-          <div className="bg-">
+        <section id="background" className="p-10 bg-purple-200 rounded-lg shadow-lg">
+          <div className="">
             <h3 className="text-3xl py-1">Background</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -172,7 +172,7 @@ export default function Home() {
         </section>
 
         {/* Portfolio */}
-        <section id="portfolio">
+        <section id="portfolio" className="p-10 bg-purple-200 rounded-lg shadow-lg">
           <div>
             <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
